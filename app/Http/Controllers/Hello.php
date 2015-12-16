@@ -46,9 +46,9 @@ class Hello extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($id,$id2)
     {
-        return view('hello', array('name'=>$id));
+        return view('hello', array('name'=>$id,'name2'=>$id2));
     }
 
     /**

@@ -22,4 +22,4 @@ Route::get('/hello',function(){
 /*
 Route::get('hello', 'Hello@index');*/
 
-Route::get('/hello/{name}','Hello@show');
+//Route::get('/hello/{name}','Hello@show');
